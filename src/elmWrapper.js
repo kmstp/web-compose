@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import autobind from 'class-autobind';
 import PropTypes from 'prop-types';
 import React from 'react';
