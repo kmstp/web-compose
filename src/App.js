@@ -1,9 +1,8 @@
-/* eslint-disable */
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Elm from './elmWrapper';
-import { Signup } from './Signup';
+import { Signup } from './components/Signup';
 
 class App extends Component {
   render() {
