@@ -1,13 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
-import Router from './LoadableRouter';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Router />
-      </div>
+      <div style={{'marginLeft': '2%', 'marginRight': '2%'}}><Router /></div>
     );
   }
 }
