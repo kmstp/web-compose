@@ -8,10 +8,10 @@ const LoadableRouter = Loadable({
   timeout: 10000
 });
 
-class MyRouter extends React.Component {
+class Router extends React.Component {
   render() {
     return <LoadableRouter/>;
   }
 }
 
-export default MyRouter;
+export default Router;
