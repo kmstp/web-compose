@@ -1,7 +1,8 @@
 import React from 'react';
+import Markdown from 'react-markdown';
+
+const input = '# About us\n\nWe focus on child development and healthcare';
 
 export default () => (
-  <div>
-    <h2>About</h2>
-  </div>
+  <Markdown source={input} />
 )
