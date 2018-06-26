@@ -10,6 +10,7 @@ import MenuIcon from '@material-ui/icons/Menu';
 
 import SignupLink from '../links/MenuSignup';
 
+
 const styles = {
   root: {
     flexGrow: 1,
